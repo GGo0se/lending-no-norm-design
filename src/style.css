@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav_ {
+    width: 100vw;
+    background: white;
+    box-shadow: 0px 12px 9.300000190734863px rgba(0, 0, 0, 0.25);
+    height: 132px;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo {
+    align-items: center;
+    align-self: center;
+
+}
+
+.logo_text {
+    font-size: 40px;
+}
+
+.link_ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+}
+
+.link_text {
+    margin-left: 40px;
+    color: black;
+}
+
+.number_ {
+    align-items: center;
+    align-self: center;
+}
+
+.icon_number {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon_number:before {
+    content: "📞";
+}
+
+.bakcground {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../src/img/горы фон.jpg");
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_one {
+    align-items: center;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.main_one_text {
+    color: white;
+    font-size: 50px;
+}
+
+.main_two {
+
+}
+
+.button_two {
+    width: 477px;
+    height: 115px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.h1_button {
+    color: white;
+    font-size: 40px;
+}
+
+.bakcground_two {
+    width: 100vw;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.text_one {
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+.text_two {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.text_tweo {
+    display: flex;
+    flex-direction: column;
+    /*text-align: center;*/
+    justify-content: space-between;
+
+}
+
+.icon {
+    width: 103px;
+    height: 103px;
+    transform: translatex(100px);
+}
+
+.icon_onee {
+    background-repeat: no-repeat;
+    background-image: url("../src/img/arcticons--mymoney-pro.svg");
+    background-size: 100px;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+.icon_twoo {
+    background-repeat: no-repeat;
+    background-image: url("../src/img/lets-icons--time-progress-light.svg");
+    background-size: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.icon_three {
+    background-repeat: no-repeat;
+    background-image: url("../src/img/geo--ui-earth-east.svg");
+    background-size: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.bakcground_three {
+    width: 100vw;
+    background-image: url("../src/img/что в стоимости фон.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bakcground_three_ {
+
+}
+
+.text_sum {
+    font-size: 20px;
+    font-weight: initial;
+}
+
+.span_sum_text {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.span_sum_text:before {
+    content: "";
+    background-color: greenyellow;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    transform: translate(-70px, -10px);
+}
+
+.four {
+    width: 100vw;
+    height: 100vh;
+}
+
+.five {
+    width: 100vw;
+    height: 100vh;
+}
+
+.four_ {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: translateY(100px);
+}
+
+.four_png {
+    width: 400px;
+    height: 550px;
+    background-image: url("../src/img/байкал.jpg");
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.four_text {
+    width: 400px;
+    height: 500px;
+    background-color: rgba(250, 250, 250, 0.91);
+    border-radius: 10px;
+    transform: translate(-50px, 50px);
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+.five_png {
+    width: 400px;
+    height: 550px;
+    background-image: url("../src/img/карелия.jpg");
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.aboba {
+    width: 250px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.four_ {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: translateY(100px);
+}
+
+
+.five_ {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    transform: translateY(100px);
+}
+
+.five_text {
+    width: 400px;
+    height: 500px;
+    background-color: rgba(250, 250, 250, 0.91);
+    border-radius: 10px;
+    transform: translate(50px, 50px);
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+.five_png {
+    width: 400px;
+    height: 550px;
+    background-image: url("../src/img/карелия.jpg");
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.six_ {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: translateY(100px);
+}
+
+.six_text {
+    width: 400px;
+    height: 500px;
+    background-color: rgba(250, 250, 250, 0.91);
+    border-radius: 10px;
+    transform: translate(-50px, 50px);
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+.six_png {
+    width: 400px;
+    height: 550px;
+    background-image: url("../src/img/камчатка.jpg"); /* ./src/img/камчатка.jpg*/
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.last_block {
+    width: 100vw;
+    height: 100vh;
+}
+
+.last_block_bac {
+    background-image: url("../src/img/горы фон2.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+.biba {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.footer {
+    width: 100vw;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.input {
+    width: 700px;
+    height: 80px;
+    border: 1px #494949 solid;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: #494949;
+    font-weight: lighter;
+}
+
+.ion {
+    transform: translateY(100px);
+}
+
+.ion_two {
+    display: flex;
+    flex-direction: column;
+    transform: translate(50px,70px);
+}
